@@ -1,19 +1,19 @@
-public int sumPath(int row, int col)
-{
-    int total = grid[row][col];
-    Location j = getNextLoc(row, col);
+public Location getNextLoc(int row, int col) {
 
-    while(j != null)
-    {
-        total += grid[j.getRow()][j.getCol()]; 
+    Location below = new Location(row + 1, col);
+    Location next = new Location(row, col + 1);
 
-        if(j.getRow() < grid.length - 1 || j.getCol() < grid[0].length - 1){
-          j = getNextLoc(loc.getRow(), loc.getCol()); }
-            
-        else {
-            loc = null;
-        }   
+    if(row == grid.length - 1) {
+        return below;
+    }
+    if(col == grid[0].length - 1) {
+        return next;
     }
 
-    return sum;
+    if(grid[row + 1][col] < grid[row][col + 1]) {
+        return below;
+        }
+    else {
+        return next;
+    }
 }
