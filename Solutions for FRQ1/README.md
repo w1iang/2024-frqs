@@ -10,5 +10,7 @@ a percentage at random, I used Math.random(). Then to there is the instance of
 properly calculating the arithmetic value of food left in the feeder. This was
 an easy task as it's just java arithmetics. However, for part b), you must call
 the method from part a) in order to calculate the total food eaten over the 
-period of many days.
+period of many days. Other than that, the calculations are relatively the same.
 ## What I learned
+I made the initial mistake of not making the integer multipled with Math.random()
+increment by one, which is just a minor calculation error.
