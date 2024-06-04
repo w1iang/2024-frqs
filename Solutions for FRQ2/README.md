@@ -8,3 +8,6 @@ I initially struggled with coming up with a way to properly switch between
 updating scores between teams. After discussing with my class, I revised my new
 solution to contain a boolean variable
 ## What I learned
+Because the root of my issue with my code was not understanding the need for a
+boolean variable, it was sort of simple to revise and fix. I learned how to use 
+a boolean to simplify the code significantly.
