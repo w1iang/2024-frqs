@@ -16,4 +16,4 @@ in my repository.
 ## What I learned
 - I learned that I should put the precondition statements (not going all the way
 to the left or the bottom) of the number grid first, then worry about the looping
-that determines
+that determines which location comes next.
